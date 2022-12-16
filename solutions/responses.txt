@@ -15,3 +15,6 @@ x=	(100*555)/1033
 x=53.727%
 
 Aforramos un 46,273% de espacio. 
+
+For the question, I choose  4. urn:trial:examB.
+Because even with the other namespace declared before, when going deep into the document, it changes at "name", so it changes into the examB.
