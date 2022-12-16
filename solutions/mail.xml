@@ -1,0 +1,34 @@
+<mail>
+    <title>You've Got Mail</title>
+    <year>1998</year>
+    <director>
+        <name>Nora Ephron</name>
+        <nacionality>USA</nacionality>
+    </director>
+    <cast> <!--I use actor for the element because is the proper neutral gender word on strict English-->
+        <actor>
+            <name>Tom Hanks</name>
+            <character>Joe Fox</character>
+        </actor>
+        <actor>
+            <name>Meg Ryan</name>
+            <character>Kathleen Kelly</character>
+        </actor>
+        <actor>
+            <name>Parker Posey</name>
+            <character>Patricia Eden</character>
+        </actor>
+        <actor>
+            <name>Greg Kinnear</name>
+            <character>Frank Navasky</character>
+        </actor>
+        <actor>
+            <name>Jean Stapleton</name>
+            <character>Birdie Conrad</character>
+        </actor>
+        <actor>
+            <name>Steve Zahn</name>
+            <character>George Pappas</character>
+        </actor>
+    </cast>
+</mail>

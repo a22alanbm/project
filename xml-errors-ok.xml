@@ -1,0 +1,17 @@
+<film Runtime="1h34m"> <!--Before=[<Film], after= [<film], the problem here is that the opening and the closing are not exactly the same, because the closing is </film, with lower case.-->
+		<!--Actually, an atribute can not start by number, so that atribute is wrong, but also I think it has to be reversed, i mean, yes 1h34m is indeed the runtime, but the atribute should be runtime that take the value of 1h34m, just to follow some logic rules, but the main problem is to have the atribute with numbers, so I change 1h34m=Runtime to Runtime="1h34m"-->
+		<!--Atribute on element, has to be with cuotes. Not:1h34m, but:"1h34m".-->
+	<title>Pirates of Silicon Valley</title>
+	<director>Martyn Burke</director> <!--Before= ["<director/>"], after= ["</director>"], that is only valid when opening and closing an element at the same time, creating an empty element.-->
+	<Original Language="English"> <!--Here we have an error caussed by unneeded spaces, its important to have the "<>" side by side with the element name, <orig.......lish>, because before, it was < orig.....lish >, and it would not work.-->
+					<!--Atribute on element, has to be with cuotes. Not:English, but:"English".-->
+		<description>
+			Based upon the friendship and eventual breakdown between <strong>Bill Gates</strong> and <strong>Steve Jobs</strong> in the very early startup days of Microsoft and Apple from their home garages. This film does a great job of showing it’s about being the first to have an idea, it’s about who’s first to act on it properly and with passion, exemplified by their "theft" of the first GUI system from Xerox.
+		</description>
+	</Original> <!--That error is simply because there was not a closing for the "Original" element.-->	
+
+
+	<!--Also, Original could be an empty element with the atribute inside of it, but because of the indent, I chose to keep the description inside.-->
+
+
+</film>		

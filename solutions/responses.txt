@@ -1,0 +1,17 @@
+XML Document (.xml)
+
+Tamaño: 1,00 KB (1.033 bytes)
+
+JSON Source File (.json)
+
+Tamaño: 555 bytes (555 bytes)
+
+
+1033		100%
+555		x%
+
+x=	(100*555)/1033
+
+x=53.727%
+
+Aforramos un 46,273% de espacio. 
